@@ -19,3 +19,5 @@ npm i -g l00g.in
 ```
 l00g
 ```
+
+[![asciicast](https://asciinema.org/a/cufsbaeh19ugdpge8r4mq1jxi.png)](https://asciinema.org/a/cufsbaeh19ugdpge8r4mq1jxi)
