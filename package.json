@@ -1,6 +1,6 @@
 {
   "name": "l00g.in",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The best ssh config moderate cli tool ever.",
   "main": "index.js",
   "dependencies": {
