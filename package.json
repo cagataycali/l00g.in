@@ -1,0 +1,48 @@
+{
+  "name": "l00g.in",
+  "version": "1.0.0",
+  "description": "The best ssh config moderate cli tool ever.",
+  "main": "index.js",
+  "dependencies": {
+    "3x1st": "^1.0.3",
+    "3x3c": "^1.0.2",
+    "async": "^2.1.4",
+    "cl0n3": "^1.0.0",
+    "colors": "^1.1.2",
+    "cr34t3": "^1.0.38",
+    "fs-jetpack": "^0.10.3",
+    "inquirer": "^1.2.3",
+    "is-git-url": "^0.2.3",
+    "ssh-config-parser": "^0.0.0"
+  },
+  "bin": {
+    "l00g": "./index.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cagataycali/l00g.in.git"
+  },
+  "keywords": [
+    "ssh",
+    "manage",
+    "ssh",
+    "ssh",
+    "config",
+    "config",
+    "cli",
+    "tool",
+    "nodejs",
+    "cli",
+    "ssh"
+  ],
+  "author": "Çağatay Çalı",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cagataycali/l00g.in/issues"
+  },
+  "homepage": "https://github.com/cagataycali/l00g.in#readme"
+}
