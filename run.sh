@@ -4,6 +4,6 @@ if [ -d ".ssh" ]; then
   if [ -f "config" ]; then
     echo "Config exist.";
   else
-    touch config;
+    echo "" > config;
   fi
 fi
