@@ -9,7 +9,7 @@ var async = require('async');
 var globalModulesDir = require('global-modules');
 var E = require('3x3c');
 
-E(`${globalModulesDir}/l00g.in/run.sh`)
+E(`${globalModulesDir}/l00g/run.sh`)
   .then(() => {
     var questions = [
       {
