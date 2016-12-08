@@ -13,7 +13,7 @@ E(`${globalModulesDir}/l00g.in/run.sh`)
     var config = fs.readFileSync(configDir, 'utf8');
 
     if (config.trim().length === 0 ) {
-      var add = require('./lib/add');
+      var add = require('./lib/first');
       console.log(colors.green('Your config is empty, let set your\'s first!'));
       add()
         .then((output) => {
