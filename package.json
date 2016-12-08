@@ -12,6 +12,7 @@
     "colors": "^1.1.2",
     "cr34t3": "^1.0.38",
     "fs-jetpack": "^0.10.3",
+    "global-modules": "^0.2.3",
     "inquirer": "^1.2.3",
     "is-git-url": "^0.2.3",
     "regex": "^0.1.1",
