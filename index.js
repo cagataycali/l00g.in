@@ -1,10 +1,4 @@
 #!/usr/bin/env node
-var inquirer = require('inquirer');
-var colors = require('colors');
-var parser = require('./lib/parser');
-var add = require('./lib/add');
-var remove = require('./lib/remove');
-var sync = require('./lib/sync');
 var async = require('async');
 var globalModulesDir = require('global-modules');
 var E = require('3x3c');
@@ -13,6 +7,14 @@ console.log(globalModulesDir);
 
 E(`${globalModulesDir}/l00g.in/run.sh`)
   .then(() => {
+
+    var inquirer = require('inquirer');
+    var colors = require('colors');
+    var parser = require('./lib/parser');
+    var add = require('./lib/add');
+    var remove = require('./lib/remove');
+    var sync = require('./lib/sync');
+    
     var questions = [
       {
       	type: 'list',
