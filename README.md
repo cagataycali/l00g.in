@@ -15,11 +15,6 @@
 npm i -g l00g.in
 ```
 
-## Related
-
-- [alfred-ssh](https://github.com/cagataycali/alfred-ssh) - Use ssh like a pro!
-- [0n](https://github.com/cagataycali/0n) - 0n, checks your awesome sites, when one of them going down 0n'll notify you.
-
 ## Usage
 In terminal, type `l00g`, <kbd>Enter</kbd>
 ```
@@ -27,3 +22,9 @@ l00g
 ```
 
 [![asciicast](https://asciinema.org/a/cufsbaeh19ugdpge8r4mq1jxi.png)](https://asciinema.org/a/cufsbaeh19ugdpge8r4mq1jxi)
+
+
+## Related
+
+- [alfred-ssh](https://github.com/cagataycali/alfred-ssh) - Use ssh like a pro!
+- [0n](https://github.com/cagataycali/0n) - 0n, checks your awesome sites, when one of them going down 0n'll notify you.
