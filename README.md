@@ -17,7 +17,7 @@ npm i -g l00g.in
 
 ## Related
 
-- [alfred-ssh](https://github.com/cagataycali/l00g.in) - Use ssh like a pro!
+- [alfred-ssh](https://github.com/cagataycali/alfred-ssh) - Use ssh like a pro!
 - [0n](https://github.com/cagataycali/0n) - 0n, checks your awesome sites, when one of them going down 0n'll notify you.
 
 ## Usage
