@@ -9,14 +9,19 @@
 [![GitHub stars](https://img.shields.io/github/stars/cagataycali/l00g.in.svg?style=social&label=Star&maxAge=2592000)]()
 
 </a>
-# Install
+## Install
 
 ```shell
 npm i -g l00g.in
 ```
 
-# Usage
+## Related
 
+- [alfred-ssh](https://github.com/cagataycali/l00g.in) - Use ssh like a pro!
+- [0n](https://github.com/cagataycali/0n) - 0n, checks your awesome sites, when one of them going down 0n'll notify you.
+
+## Usage
+In terminal, type `l00g`, <kbd>Enter</kbd>
 ```
 l00g
 ```
