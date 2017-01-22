@@ -5,7 +5,6 @@ var E = require('3x3c');
 
 E(`${globalModulesDir}/l00g.in/run.sh`)
   .then(() => {
-
     var inquirer = require('inquirer');
     var colors = require('colors');
     var fs = require('fs');
@@ -23,11 +22,11 @@ E(`${globalModulesDir}/l00g.in/run.sh`)
           console.log(err);
         })
     } else {
-
-      var parser = require('./lib/parser');
-      var add = require('./lib/add');
-      var remove = require('./lib/remove');
-      var sync = require('./lib/sync');
+      var parser = require('./lib/parser'),
+          add = require('./lib/add'),
+          remove = require('./lib/remove'),
+          sync = require('./lib/sync'),
+          list = require('./lib/list');
 
       var questions = [
         {
@@ -37,14 +36,13 @@ E(`${globalModulesDir}/l00g.in/run.sh`)
         	choices: ['List', 'Add', 'Remove', 'Github sync'],
         }
       ];
-
-      inquirer.prompt(questions).then(function (answers) {
-
+      inquirer.prompt(questions)
+        .then((answers) => {
            // Maybe switch ?
            if (answers.option === 'List') {
-             parser.stringify()
-              .then((configFile) => {
-                console.log(colors.gray(configFile));
+             list()
+              .then((output) => {
+                console.log(output);
               })
            } else if (answers.option === 'Add') {
              add()
@@ -65,10 +63,7 @@ E(`${globalModulesDir}/l00g.in/run.sh`)
                 console.log(value);
               })
            }
-
       });
-
     }
-
   })
   .catch((err) => {console.log(err);})
