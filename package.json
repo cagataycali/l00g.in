@@ -1,6 +1,6 @@
 {
   "name": "l00g.in",
-  "version": "2.0.3",
+  "version": "2.0.5",
   "description": "The best ssh config management cli tool ever.",
   "main": "index.js",
   "dependencies": {
