@@ -1,0 +1,132 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - inquirer > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - c0mm1t > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - cl0n3 > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - cr34t3 > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - cl0n3 > inquirer > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - cr34t3 > inquirer > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > inquirer > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - c0mm1t > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - cl0n3 > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - cr34t3 > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - c0mm1t > br4nch > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - cr34t3 > br4nch > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > c0mm1t > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - c0mm1t > 1n1t > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - c0mm1t > m4g1c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > cl0n3 > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > cr34t3 > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - c0mm1t > 1n1t > inquirer > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > cl0n3 > inquirer > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > cr34t3 > inquirer > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > inquirer > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - c0mm1t > br4nch > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - cr34t3 > br4nch > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > c0mm1t > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - c0mm1t > 1n1t > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > cl0n3 > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > cr34t3 > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > c0mm1t > br4nch > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - c0mm1t > 1n1t > br4nch > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > cr34t3 > br4nch > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > c0mm1t > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > c0mm1t > 1n1t > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > c0mm1t > m4g1c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > cl0n3 > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > cr34t3 > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > c0mm1t > 1n1t > inquirer > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > cl0n3 > inquirer > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > cr34t3 > inquirer > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > c0mm1t > br4nch > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - c0mm1t > 1n1t > br4nch > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > cr34t3 > br4nch > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > c0mm1t > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > c0mm1t > 1n1t > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > cl0n3 > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > cr34t3 > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > c0mm1t > br4nch > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > c0mm1t > 1n1t > br4nch > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > cr34t3 > br4nch > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > c0mm1t > 1n1t > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > c0mm1t > m4g1c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > c0mm1t > 1n1t > inquirer > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > c0mm1t > br4nch > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > c0mm1t > 1n1t > br4nch > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > cr34t3 > br4nch > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > c0mm1t > 1n1t > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > c0mm1t > 1n1t > br4nch > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
+    - l00g.in > l00g.in > c0mm1t > 1n1t > br4nch > 3x3c > async > lodash:
+        patched: '2020-05-04T01:35:07.682Z'
