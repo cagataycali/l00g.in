@@ -19,14 +19,17 @@
     "is-git-url": "^0.2.3",
     "l00g.in": "^2.0.1",
     "regex": "^0.1.1",
-    "ssh-config-parser": "^0.0.0"
+    "ssh-config-parser": "^0.0.0",
+    "snyk": "^1.317.0"
   },
   "bin": {
     "l00g": "./index.js"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -50,5 +53,6 @@
   "bugs": {
     "url": "https://github.com/cagataycali/l00g.in/issues"
   },
-  "homepage": "https://github.com/cagataycali/l00g.in#readme"
+  "homepage": "https://github.com/cagataycali/l00g.in#readme",
+  "snyk": true
 }
