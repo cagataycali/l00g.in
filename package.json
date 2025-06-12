@@ -12,7 +12,7 @@
     "clipboardy": "^0.1.2",
     "colors": "^1.1.2",
     "cr34t3": "^1.0.38",
-    "fs-jetpack": "^0.10.5",
+    "fs-jetpack": "^0.13.0",
     "global": "^4.3.1",
     "global-modules": "^0.2.3",
     "inquirer": "^2.0.0",
